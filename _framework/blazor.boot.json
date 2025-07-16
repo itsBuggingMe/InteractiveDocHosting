@@ -1,14 +1,14 @@
 {
   "mainAssemblyName": "DynamicCompile.Sample",
   "resources": {
-    "hash": "sha256-kPpFdpvki2rgncP0zVW34sAC/xsQXr+DUCzp045RKXg=",
+    "hash": "sha256-WuJ2YBgOHHaTh4YOYOEFtooEyfacJq6EIq0FBrSwDS0=",
     "fingerprinting": {
       "Frent.fcpsalzo7c.wasm": "Frent.wasm",
       "Humanizer.oqup3v7t3k.wasm": "Humanizer.wasm",
       "Microsoft.AspNetCore.Components.wblsynwvnh.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Forms.jn6n69jo4d.wasm": "Microsoft.AspNetCore.Components.Forms.wasm",
       "Microsoft.AspNetCore.Components.Web.00fiwdhq73.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
-      "Microsoft.AspNetCore.Components.WebAssembly.5nhv0jic9d.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
+      "Microsoft.AspNetCore.Components.WebAssembly.yagkj3qenr.wasm": "Microsoft.AspNetCore.Components.WebAssembly.wasm",
       "Microsoft.Bcl.HashCode.fhc460s73x.wasm": "Microsoft.Bcl.HashCode.wasm",
       "Microsoft.CodeAnalysis.AnalyzerUtilities.nmewpnd3q1.wasm": "Microsoft.CodeAnalysis.AnalyzerUtilities.wasm",
       "Microsoft.CodeAnalysis.kpjgxy86t6.wasm": "Microsoft.CodeAnalysis.wasm",
@@ -112,7 +112,7 @@
       "System.Private.CoreLib.jrei9d9z1i.wasm": "System.Private.CoreLib.wasm",
       "DynamicCompile.3k6yr2x7ud.wasm": "DynamicCompile.wasm",
       "Frent.Generator.h0ff8fu10x.wasm": "Frent.Generator.wasm",
-      "DynamicCompile.Sample.q3q949y2gx.wasm": "DynamicCompile.Sample.wasm",
+      "DynamicCompile.Sample.aab2vo301u.wasm": "DynamicCompile.Sample.wasm",
       "Microsoft.CodeAnalysis.resources.azbzwnm97j.wasm": "Microsoft.CodeAnalysis.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.resources.ncyjg21q77.wasm": "Microsoft.CodeAnalysis.CSharp.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.Features.resources.zklv7tay4g.wasm": "Microsoft.CodeAnalysis.CSharp.Features.resources.wasm",
@@ -262,7 +262,7 @@
       "Microsoft.AspNetCore.Components.wblsynwvnh.wasm": "sha256-/DhXxUZITjhPbtAMMSBGXIXF7k3iZmy96FZlIpIHk/w=",
       "Microsoft.AspNetCore.Components.Forms.jn6n69jo4d.wasm": "sha256-bzs20GQ9q1Ifq0rmIahA3/p1rQM4SD/GV2ySfXZ7pCA=",
       "Microsoft.AspNetCore.Components.Web.00fiwdhq73.wasm": "sha256-cCAxdpKLaRp6HCoH+gL0vOLinZmp9y10Ao/CR00GzqY=",
-      "Microsoft.AspNetCore.Components.WebAssembly.5nhv0jic9d.wasm": "sha256-Ebc3wgBbbpwGo1EPqW+rZpMTqoqAC6gsiBS0Bk+1wLY=",
+      "Microsoft.AspNetCore.Components.WebAssembly.yagkj3qenr.wasm": "sha256-dnH4hbozEyqzVWSoMwrZSM9S3qNx5KRzQwSCe2E7c5s=",
       "Microsoft.Bcl.HashCode.fhc460s73x.wasm": "sha256-zaHCBrRXAFuOMETGRVpV0g2MyMtc7qajuH+pMRNR2D8=",
       "Microsoft.CodeAnalysis.AnalyzerUtilities.nmewpnd3q1.wasm": "sha256-8egms5vFlViFVpGkxyf5tebS/TX/kXSxExpfyV9SoxY=",
       "Microsoft.CodeAnalysis.kpjgxy86t6.wasm": "sha256-yFB2pIa2byV3TrRzKx8sZMf9diT4CLls+UHRXPpzgew=",
@@ -364,7 +364,7 @@
       "netstandard.0x679157g8.wasm": "sha256-xHuVB2C/AjUgJMhtRv5tgQnm7guJgxLeeWk3yNYqfjg=",
       "DynamicCompile.3k6yr2x7ud.wasm": "sha256-TZcXQRR7WNSg9NLcZjTpNGz3t3JLEWKfy8TtSTxNQsA=",
       "Frent.Generator.h0ff8fu10x.wasm": "sha256-wb1dIZu302R4BCnubblGn26lWrzhdOwBUIA/ezUo7wg=",
-      "DynamicCompile.Sample.q3q949y2gx.wasm": "sha256-miuieG3EfkWdzlbnQwJRgrn0+Bi+O869pJsHDi5w2Dg="
+      "DynamicCompile.Sample.aab2vo301u.wasm": "sha256-orRxUZPvphgpN1R94l8Uudo2cMoGxClIF1MYG62InyA="
     },
     "satelliteResources": {
       "cs": {
