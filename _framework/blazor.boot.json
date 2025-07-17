@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DynamicCompile.Sample",
   "resources": {
-    "hash": "sha256-VQO98hZZ9UYlepAIYPRIY5PynIAfrwEVKmaj9MLnSSk=",
+    "hash": "sha256-NGWBKhIqE+i26YvxDYmWz5Zp5sPaUPJyDz0IajqLd5g=",
     "fingerprinting": {
       "Frent.fcpsalzo7c.wasm": "Frent.wasm",
       "Humanizer.oqup3v7t3k.wasm": "Humanizer.wasm",
@@ -111,7 +111,7 @@
       "System.Private.CoreLib.jrei9d9z1i.wasm": "System.Private.CoreLib.wasm",
       "DynamicCompile.gj5zxcddw0.wasm": "DynamicCompile.wasm",
       "Frent.Generator.h0ff8fu10x.wasm": "Frent.Generator.wasm",
-      "DynamicCompile.Sample.wb0g2lcn3q.wasm": "DynamicCompile.Sample.wasm",
+      "DynamicCompile.Sample.g5nv6iuepl.wasm": "DynamicCompile.Sample.wasm",
       "Microsoft.CodeAnalysis.resources.azbzwnm97j.wasm": "Microsoft.CodeAnalysis.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.resources.ncyjg21q77.wasm": "Microsoft.CodeAnalysis.CSharp.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.Features.resources.zklv7tay4g.wasm": "Microsoft.CodeAnalysis.CSharp.Features.resources.wasm",
@@ -362,7 +362,7 @@
       "netstandard.0x679157g8.wasm": "sha256-xHuVB2C/AjUgJMhtRv5tgQnm7guJgxLeeWk3yNYqfjg=",
       "DynamicCompile.gj5zxcddw0.wasm": "sha256-NHjsVv2qXC+lAS4SrpXl0oQt3MhLFFt1MF695Jcikqw=",
       "Frent.Generator.h0ff8fu10x.wasm": "sha256-wb1dIZu302R4BCnubblGn26lWrzhdOwBUIA/ezUo7wg=",
-      "DynamicCompile.Sample.wb0g2lcn3q.wasm": "sha256-VGRKtbHr8DT42yBIQYu5gK6t/FpVtkKZzozesiuAMOI="
+      "DynamicCompile.Sample.g5nv6iuepl.wasm": "sha256-9DT4ARPm4YwSlMd86Lujy0SI9fotCBQ4mk6DTaVbUnw="
     },
     "satelliteResources": {
       "cs": {
