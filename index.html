@@ -25,6 +25,21 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
+    <!-- For embeds -->
+    <script>
+        function sendHeight() {
+            window.parent.postMessage({ type: "setHeight", height: document.body.scrollHeight + 30 }, "*");
+        }
+        function onInitalize() {
+            sendHeight();
+
+        }
+        window.addEventListener("load", onInitalize);
+        new ResizeObserver(sendHeight).observe(document.body);
+
+        // tab
+
+    </script>
     <script src="js/interop.js"></script>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>

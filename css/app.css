@@ -1,5 +1,6 @@
 body {
-    background-color: #333333;
+    background-color: transparent;
+    overflow: hidden;
 }
 
 .valid.modified:not([type=checkbox]) {
@@ -98,7 +99,7 @@ code {
     padding: 1rem;
     margin-top: 1rem;
     border-radius: 0.25rem;
-    border: 0.1rem;
+    border: 0.2rem;
     border-style: solid;
     font-size: 1rem;
 }
@@ -137,9 +138,18 @@ code {
     resize: none;
     outline: none;
     overflow: hidden;
+    cursor: completions-menu;
 }
 
     .code-text::selection {
         color: #0078d7;
         background-color: #0078d7;
     }
+
+.completions-menu {
+    position: relative;
+    background-color: #333333;
+    z-index: 10;
+    transform: translate(0, 1rem);
+    width: 10rem;
+}
