@@ -1,38 +1,49 @@
-﻿window.getSelectionStart = (element) => {
-    return element.selectionStart;
+﻿const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+
+function clearCanvas(color) {
+    ctx.fillStyle = color;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
-window.getCaretCoordinates = function (textArea) {
-    const { selectionStart } = textArea;
-    const div = document.createElement("div");
-    const span = document.createElement("span");
-    const style = window.getComputedStyle(textArea);
-
-    for (const prop of style) {
-        div.style[prop] = style[prop];
+function circle(x, y, color, borderThickness, borderColor) {
+    ctx.beginPath();
+    ctx.arc(x, y, borderThickness > 0 ? borderThickness : 10, 0, 2 * Math.PI);
+    ctx.fillStyle = color;
+    ctx.fill();
+    if (borderThickness > 0 && borderColor) {
+        ctx.lineWidth = borderThickness;
+        ctx.strokeStyle = borderColor;
+        ctx.stroke();
     }
+}
 
-    div.style.position = "absolute";
-    div.style.visibility = "hidden";
-    div.style.whiteSpace = "pre-wrap";
-    div.style.wordWrap = "break-word";
-    div.style.overflowWrap = "break-word";
-    div.style.width = textArea.offsetWidth + "px";
-    div.style.height = textArea.offsetHeight + "px";
+function line(a, b, color, borderThickness, borderColor) {
+    ctx.beginPath();
+    ctx.moveTo(a.x, a.y);
+    ctx.lineTo(b.x, b.y);
+    ctx.strokeStyle = borderColor || color;
+    ctx.lineWidth = borderThickness;
+    ctx.stroke();
+}
 
-    const textBeforeCaret = textArea.value.substring(0, selectionStart);
-    const textAfterCaret = textArea.value.substring(selectionStart);
-    span.textContent = "\u200b";
-    div.textContent = textBeforeCaret;
-    div.appendChild(span);
+function rectangle(rect, color, borderThickness, borderColor) {
+    const { x, y, width, height } = rect;
 
-    document.body.appendChild(div);
-    const rect = span.getBoundingClientRect();
-    const taRect = textArea.getBoundingClientRect();
-    document.body.removeChild(div);
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, width, height);
 
-    return {
-        top: rect.top - taRect.top + textArea.scrollTop,
-        left: rect.left - taRect.left + textArea.scrollLeft
-    };
-};
+    if (borderThickness > 0 && borderColor) {
+        ctx.lineWidth = borderThickness;
+        ctx.strokeStyle = borderColor;
+        ctx.strokeRect(x, y, width, height);
+    }
+}
+function callCanvas(...args) {
+    const [method, ...params] = args;
+    if (typeof ctx[method] === "function") {
+        ctx[method](...params);
+    } else {
+        console.warn(`Canvas method ${method} does not exist`);
+    }
+}

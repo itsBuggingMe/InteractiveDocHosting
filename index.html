@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark">
     <title>DynamicCompile.Sample</title>
-    <base href="/" />
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/dark_theme.css" />
     <!-- If you add any scoped CSS files, uncomment the following to load them
@@ -26,7 +26,21 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script src="js/interop.js"></script>
+    <!-- For embeds -->
+    <script>
+        const queryString = window.location.search;
+        const urlParams = new URLSearchParams(queryString);
+        const parameterValue = urlParams.has('id') ? urlParams.get('id') : '';
+
+        function sendHeight() {
+            window.parent.postMessage({ type: "setHeight" + parameterValue, height: document.body.scrollHeight + 30 }, "*");
+        }
+        function onInitalize() {
+            sendHeight();
+        }
+        window.addEventListener("load", onInitalize);
+        new ResizeObserver(sendHeight).observe(document.body);
+    </script>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
 
