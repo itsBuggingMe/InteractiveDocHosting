@@ -67,7 +67,7 @@
                 sb.push("</div>");
 
                 sb.push("<fieldset class=\"output-container\" style=\"border-color: #98d9ac\">");
-                sb.push("<legend>Preview Output: Loading Interactivity...</legend>");
+                sb.push("<legend><div class=\"horz\"><div class=\"loader\"></div><div style=\"margin-left:0.5rem; margin-right:0.5rem\">Loading Interactivity</div></div></legend>");
                 const outputLines = output.split('\n');
                 for (let i = 0; i < outputLines.length; i++) {
                     sb.push("<div>");

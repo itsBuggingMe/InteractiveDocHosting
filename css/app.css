@@ -152,3 +152,28 @@ code {
     transform: translate(0, 1rem);
     width: 10rem;
 }
+
+.loader {
+    margin-left: 0.5rem;
+    border: 0.2rem solid #dcdcdc;
+    border-top: 0.2rem solid transparent;
+    border-radius: 50%;
+    width: 0.75rem;
+    height: 0.75rem;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.horz {
+    display: flex;
+    flex-direction: row;
+}
