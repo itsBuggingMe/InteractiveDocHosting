@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DynamicCompile.Sample",
   "resources": {
-    "hash": "sha256-SDA0FSjv3SeH8ANz+JQrJglY+HH1Q6EgQdeVBGG4sVw=",
+    "hash": "sha256-SBvQBfid8XrsefKZQDT6vf/EGp9bjVgiZTo+DMoi0co=",
     "fingerprinting": {
       "Frent.fcpsalzo7c.wasm": "Frent.wasm",
       "Humanizer.oqup3v7t3k.wasm": "Humanizer.wasm",
@@ -218,10 +218,10 @@
       "mscorlib.wzkfrp7u5k.wasm": "mscorlib.wasm",
       "netstandard.d82br99ghv.wasm": "netstandard.wasm",
       "System.Private.CoreLib.wejp19zmu1.wasm": "System.Private.CoreLib.wasm",
-      "CanvasUtils.nxx0a35zmz.wasm": "CanvasUtils.wasm",
-      "DynamicCompile.cq25zr1q9d.wasm": "DynamicCompile.wasm",
+      "CanvasUtils.4pdrsn260f.wasm": "CanvasUtils.wasm",
+      "DynamicCompile.2u487vyow8.wasm": "DynamicCompile.wasm",
       "Frent.Generator.45guk2ynxx.wasm": "Frent.Generator.wasm",
-      "DynamicCompile.Sample.mlqx00ld87.wasm": "DynamicCompile.Sample.wasm",
+      "DynamicCompile.Sample.fkxn748ixe.wasm": "DynamicCompile.Sample.wasm",
       "Microsoft.CodeAnalysis.resources.azbzwnm97j.wasm": "Microsoft.CodeAnalysis.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.resources.ncyjg21q77.wasm": "Microsoft.CodeAnalysis.CSharp.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.Features.resources.zklv7tay4g.wasm": "Microsoft.CodeAnalysis.CSharp.Features.resources.wasm",
@@ -579,10 +579,10 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "CanvasUtils.nxx0a35zmz.wasm": "sha256-NQ7/OWCX8I3b8vU6wGVZaRIm0b7ctg58Ru7lueg8NDE=",
-      "DynamicCompile.cq25zr1q9d.wasm": "sha256-7IN9SiyitTySROAa2WEQQWlbnOQDQ+nUJTt9+mGcx9M=",
+      "CanvasUtils.4pdrsn260f.wasm": "sha256-6Im6naWqgzubZGqlx+CWM5jTaF9p+YX3f7/F5aMNVO8=",
+      "DynamicCompile.2u487vyow8.wasm": "sha256-htK25hf5gtHbmUeXN4JtrFPNN+4jHz4tdurfjHiK+Tg=",
       "Frent.Generator.45guk2ynxx.wasm": "sha256-OGm492lAo/g1VSxxQiw60gpUQF57m1xJnKrzGyny5FA=",
-      "DynamicCompile.Sample.mlqx00ld87.wasm": "sha256-Fms+KnJJwUGZ7WIqPLQOr4Dn2i+kOYGx7nN6iMlgzvQ="
+      "DynamicCompile.Sample.fkxn748ixe.wasm": "sha256-rwChb3LOOs4ud4HTsxvPyaeCVdXWpVnsO7aavVDXhKI="
     },
     "satelliteResources": {
       "cs": {

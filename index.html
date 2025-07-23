@@ -26,7 +26,7 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <!-- For embeds -->
+    <!-- For embeds and previews -->
     <script>
         const queryString = window.location.search;
         const urlParams = new URLSearchParams(queryString);
@@ -38,8 +38,58 @@
         function onInitalize() {
             sendHeight();
         }
+
+        function getRawHtml(id) {
+            return document.getElementById(id).innerHTML;
+        }
+
+        function getPreview() {
+            const code = urlParams.get('code');
+            const spans = urlParams.get('spans');
+            const output = urlParams.get('output');
+
+            if (code && spans && output) {
+
+                var sb = [];
+                sb.push("<div class=\"syntax-container\">");
+                sb.push("<pre class=\"highlighted-code\">");
+                var cumulativeLength = 0;
+                const spanElements = spans.split('|');
+                for (let i = 0; i < spanElements.length; i += 2) {
+                    const textLength = parseInt(spanElements[i], 10);
+                    const text = code.substring(cumulativeLength, cumulativeLength + textLength);
+                    cumulativeLength += textLength;
+
+                    sb.push(`<span class=\"${spanElements[i + 1]}\">${text}</span>`);
+                }
+                sb.push("<span>\n </span>");
+                sb.push("</pre>");
+                sb.push("</div>");
+
+                sb.push("<fieldset class=\"output-container\" style=\"border-color: #98d9ac\">");
+                sb.push("<legend>Preview Output: Loading Interactivity...</legend>");
+                const outputLines = output.split('\n');
+                for (let i = 0; i < outputLines.length; i++) {
+                    sb.push("<div>");
+                    sb.push(outputLines[i]);
+                    sb.push("</div>");
+                }
+                sb.push("</fieldset>");
+
+                return sb.join('');
+            }
+
+            return '';
+        }
+
         window.addEventListener("load", onInitalize);
         new ResizeObserver(sendHeight).observe(document.body);
+
+
+        const loadingElement = document.getElementById('app');
+
+        if (urlParams.get('spans') && urlParams.get('output') && urlParams.get('code'))
+            loadingElement.innerHTML = getPreview();
     </script>
     <script src="_framework/blazor.webassembly.js"></script>
 </body>
