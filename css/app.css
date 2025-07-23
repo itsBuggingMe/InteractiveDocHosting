@@ -88,7 +88,7 @@ code {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     border-radius: 0.25rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
 }
 
 .output-container {
