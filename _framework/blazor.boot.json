@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "DynamicCompile.Sample",
   "resources": {
-    "hash": "sha256-HFSn0pehnajL347LxgJucTyzxgfgq6sYMmGr/9ctHiU=",
+    "hash": "sha256-PADHy0NzAgeIuLt620FRrMPzfMsFUPdnH+Iir3ATp5s=",
     "fingerprinting": {
       "Frent.lyk0ncl7v0.wasm": "Frent.wasm",
       "Humanizer.oqup3v7t3k.wasm": "Humanizer.wasm",
@@ -218,10 +218,10 @@
       "mscorlib.rwdqp2ua96.wasm": "mscorlib.wasm",
       "netstandard.z5i9vu9mte.wasm": "netstandard.wasm",
       "System.Private.CoreLib.xco58x0yew.wasm": "System.Private.CoreLib.wasm",
-      "CanvasUtils.nno28obos9.wasm": "CanvasUtils.wasm",
-      "DynamicCompile.jon7fac9j0.wasm": "DynamicCompile.wasm",
-      "Frent.Generator.4i09lokesd.wasm": "Frent.Generator.wasm",
-      "DynamicCompile.Sample.9gg4hi44hc.wasm": "DynamicCompile.Sample.wasm",
+      "CanvasUtils.i9705bazs3.wasm": "CanvasUtils.wasm",
+      "DynamicCompile.wyars4kyxw.wasm": "DynamicCompile.wasm",
+      "Frent.Generator.ooicciinxr.wasm": "Frent.Generator.wasm",
+      "DynamicCompile.Sample.k3tdsqxsvu.wasm": "DynamicCompile.Sample.wasm",
       "Microsoft.CodeAnalysis.resources.azbzwnm97j.wasm": "Microsoft.CodeAnalysis.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.resources.ncyjg21q77.wasm": "Microsoft.CodeAnalysis.CSharp.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.Features.resources.zklv7tay4g.wasm": "Microsoft.CodeAnalysis.CSharp.Features.resources.wasm",
@@ -579,10 +579,10 @@
       "WindowsBase.s5p0vbqk64.wasm": "sha256-oFUFRb9+p3SMcnfoHSiscsnSh4lJVsYC5ghTfye1pCg=",
       "mscorlib.rwdqp2ua96.wasm": "sha256-6ynM1AH5XXMOmh3PiGYXQIoiJqUwB4NgU1JHqpksAYg=",
       "netstandard.z5i9vu9mte.wasm": "sha256-N4vm7ZxsRT0PXRTy8+e+sWIm65oN8KVAHqPz1Sp/agU=",
-      "CanvasUtils.nno28obos9.wasm": "sha256-UwHaNF9zQ+pGmgGfOpbccxPaMTZz67Zl0g1J4z5o5Go=",
-      "DynamicCompile.jon7fac9j0.wasm": "sha256-XbU3u8Gz6hSR4SE0cISvQlc5XljofaYi7kbNxrris5k=",
-      "Frent.Generator.4i09lokesd.wasm": "sha256-zL8E0lvcZIhvoAPKsYgn7ovKgC0enUf4r22wA4mHEz4=",
-      "DynamicCompile.Sample.9gg4hi44hc.wasm": "sha256-t1rzhrLJlYDqlfHfcmTPr/n6RRTdk++ZmzDVb4fRYAQ="
+      "CanvasUtils.i9705bazs3.wasm": "sha256-OkpJSY9U0f+pf+gTf7o7GWmXkOk7HqZEjSCTL0Dh8y0=",
+      "DynamicCompile.wyars4kyxw.wasm": "sha256-uKMRmMdK+2yxVdRCDaALmzW042EfcDftArn9sA5R9Lw=",
+      "Frent.Generator.ooicciinxr.wasm": "sha256-aCKgEDos/PjkYoB8VvFj2zzMuDLsexqfXFLde+gBku4=",
+      "DynamicCompile.Sample.k3tdsqxsvu.wasm": "sha256-kCiDBkg2YDZiLMbwsyb27ILuUVAOY27yYy2z5yJpyTk="
     },
     "satelliteResources": {
       "cs": {
