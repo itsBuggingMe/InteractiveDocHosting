@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "DynamicCompile.Sample",
   "resources": {
-    "hash": "sha256-NJdyYZD1yjywAkjUKi58aH6wim7BNJqdmJhn7ALBV/s=",
+    "hash": "sha256-HFSn0pehnajL347LxgJucTyzxgfgq6sYMmGr/9ctHiU=",
     "fingerprinting": {
-      "Frent.fcpsalzo7c.wasm": "Frent.wasm",
+      "Frent.lyk0ncl7v0.wasm": "Frent.wasm",
       "Humanizer.oqup3v7t3k.wasm": "Humanizer.wasm",
       "Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.ptfrz3fits.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -221,7 +221,7 @@
       "CanvasUtils.nno28obos9.wasm": "CanvasUtils.wasm",
       "DynamicCompile.jon7fac9j0.wasm": "DynamicCompile.wasm",
       "Frent.Generator.4i09lokesd.wasm": "Frent.Generator.wasm",
-      "DynamicCompile.Sample.tjo4ap8ylc.wasm": "DynamicCompile.Sample.wasm",
+      "DynamicCompile.Sample.9gg4hi44hc.wasm": "DynamicCompile.Sample.wasm",
       "Microsoft.CodeAnalysis.resources.azbzwnm97j.wasm": "Microsoft.CodeAnalysis.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.resources.ncyjg21q77.wasm": "Microsoft.CodeAnalysis.CSharp.resources.wasm",
       "Microsoft.CodeAnalysis.CSharp.Features.resources.zklv7tay4g.wasm": "Microsoft.CodeAnalysis.CSharp.Features.resources.wasm",
@@ -366,7 +366,7 @@
       "System.Private.CoreLib.xco58x0yew.wasm": "sha256-b0ntdjicO3SnoP+IphkZMzKwVHgLNS6NhZtbdziQIlI="
     },
     "assembly": {
-      "Frent.fcpsalzo7c.wasm": "sha256-saJ/Rg/m3WS67OC97X/EImRTLTXfd5AJcMd/mlxvEhU=",
+      "Frent.lyk0ncl7v0.wasm": "sha256-HaHMUdn0yaIeu7uqU2oBXjGd5PT/AXauluO2R0MRYQE=",
       "Humanizer.oqup3v7t3k.wasm": "sha256-4NbSboZzzP9nikRtXapUZNzOyITt7ht9TNqCIQHr5OE=",
       "Microsoft.AspNetCore.Authorization.bvu82j4ad3.wasm": "sha256-R3z3EHDfLygNZKgrLSQoa3nUMS29QCyoWiSkZCtA1qg=",
       "Microsoft.AspNetCore.Components.ptfrz3fits.wasm": "sha256-3edzx5YfT09UfFs9ODDU3tlEeGEVSuzQc3N0d9Eiiww=",
@@ -582,7 +582,7 @@
       "CanvasUtils.nno28obos9.wasm": "sha256-UwHaNF9zQ+pGmgGfOpbccxPaMTZz67Zl0g1J4z5o5Go=",
       "DynamicCompile.jon7fac9j0.wasm": "sha256-XbU3u8Gz6hSR4SE0cISvQlc5XljofaYi7kbNxrris5k=",
       "Frent.Generator.4i09lokesd.wasm": "sha256-zL8E0lvcZIhvoAPKsYgn7ovKgC0enUf4r22wA4mHEz4=",
-      "DynamicCompile.Sample.tjo4ap8ylc.wasm": "sha256-t1wQp4xD/YWUYQBTofiD0QH3Dse7yZZGuQXAuphvGpk="
+      "DynamicCompile.Sample.9gg4hi44hc.wasm": "sha256-t1rzhrLJlYDqlfHfcmTPr/n6RRTdk++ZmzDVb4fRYAQ="
     },
     "satelliteResources": {
       "cs": {
